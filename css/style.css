@@ -63,11 +63,12 @@ sec-contents {
   float: right; 
 }
 #img-table {
-  width:400px; 
+  width: 400px; 
 }
 table {
   width: 800px;
   float: left;
   padding: 0 26px 0 0; 
+  margin: 40px 100px 60px;
 }
 
