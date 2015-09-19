@@ -65,4 +65,9 @@ sec-contents {
 #img-table {
   width: 350px;
 }
+table {
+  width: 800px;
+  float: center;
+  padding: 0 26px 0 0; 
+}
 
