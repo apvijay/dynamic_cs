@@ -2,18 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
-  <title>A.P. Vijay Rengarajan | Dynamic Compressed Sensing</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../urapvr/css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+  <title>A.P. Vijay Rengarajan | Motion Estimation and Classification in Compressive Sensing from Dynamic Measurements</title>
 </head>
 
 <body>
   <div id="page">
       <h1><center>Motion Estimation and Classification in Compressive Sensing from Dynamic Measurements</center></h1>   
-<table border="0" cellpadding="0" cellspacing="6">
+<table class="table_of_img">
 <tr>
-<td><img id="img-table" src="img/cs_tvs.png"></td>
-<td><img id="img-table" src="img/cs_est.png"></td>
+<td><img id="img_in_table" src="img/cs_tvs.png"></td>
+<td><img id="img_in_table" src="img/cs_noise.png"></td>
 </tr>
 </table>
 <br><br><br>
@@ -21,15 +22,14 @@
   <sec-title>Abstract</sec-title>
     <sec-contents>
       <p>
-      Temporal artifacts due to sequential acquisition of
-measurements in compressed sensing manifest differently from
-a conventional optical camera. We propose a framework for
-dynamic scenes to estimate the relative global motion between
-camera and scene from measurements acquired using a com-
-pressed sensing camera. We follow an adaptive block approach
-where the resolution of the estimated motion path depends on the
-motion trajectory. To underline the importance of the proposed
-motion estimation framework, we develop a face recognition
+      Temporal artifacts due to sequential acquisition of measurements
+in compressed sensing manifest differently from a conventional optical
+camera. We propose a framework for dynamic scenes to estimate the
+relative global motion between camera and scene from measurements
+acquired using a compressed sensing camera. We follow an adaptive
+block approach where the resolution of the estimated motion path
+depends on the motion trajectory. To underline the importance of the
+proposed motion estimation framework, we develop a face recognition
 algorithm in the compressive sensing domain by factoring in the
 time-varying nature of the acquisition process.
       </p><br><br>
@@ -40,18 +40,51 @@ time-varying nature of the acquisition process.
 
   <sec-title>Publication</sec-title>
     <sec-contents>
-<h2>Motion Estimation and Classification in Compressive Sensing from Dynamic Measurements</h2>
-          <p><i>Vijay Rengarajan</i>, A.N. Rajagopalan, and R. Aravind <br><i>International Conference on Pattern Recognition (ICPR),</i> Stockholm, Sweden <br>August 2014. <a href="pdf/icpr_2014_draft.pdf">PDF</a>
+    <b>Motion Estimation and Classification in Compressive Sensing from Dynamic Measurements</b>
+    <p><i>Vijay Rengarajan</i>, <a class="name" href="http://www.ee.iitm.ac.in/~raju">A.N. Rajagopalan</a>, and <a class="name" href="http://www.ee.iitm.ac.in/user/aravind/">R. Aravind</a><br><i>International Conference on Pattern Recognition (ICPR),</i> Stockholm, Sweden <br>August 2014<br>
+    <a href="../pdf/2014_icpr.pdf">Paper</a> (0.53MB)<br>
+          <a href="../pdf/2014_icpr_present.pdf">Slides</a> (0.73MB)
           </p><br><br>
     </sec-contents>
 
-<table border="0" cellpadding="0" cellspacing="6">
-<tr>
-<td><img id="img-table" src="img/cs_feret1.png"></td>
-<td><img id="img-table" src="img/cs_feret2.png"></td>
+<sec-contents></sec-contents>
+
+<sec-title>bibTeX</sec-title>
+<sec-contents>
+<code>
+@inproceedings{ rengarajan:2014:motion,<br>
+author={Rengarajan, V. and Rajagopalan, A.N. and Aravind, R.}, <br>
+booktitle={International Conference on Pattern Recognition (ICPR)}, <br>
+title={Motion Estimation and Classification in Compressive Sensing from Dynamic Measurements}, <br>
+year={2014}, <br>
+pages={3475-3480}, <br>
+doi={10.1109/ICPR.2014.598}, <br>
+month={Aug},<br>
+}
+</code><br><br><br>
+</sec-contents>
+
+
+<sec-contents></sec-contents>
+<sec-contents></sec-contents>
+
+<sec-title>Results</sec-title>
+<sec-contents>
+<p> Adaptive blockwise camera motion estimation from CS measurements:</p>
+<table class="table_of_img_result">
+<tr><td><img id="img_in_table_result" src="img/cs_est.png"></td></tr>
+</table>
+</sec-contents>
+<sec-contents>
+<p> Face recognition results using synthetically applied CS
+measurements in the FERET database: </p>
+<table>
+<tr><td><img id="img_in_table_result" src="img/cs_feret1.png"></td></tr>
+<tr><td><img id="img_in_table_result" src="img/cs_feret2.png"></td></tr>
 </tr>
 </table>
 <br><br><br>
+</sec-contents>
 
 
   </div>
